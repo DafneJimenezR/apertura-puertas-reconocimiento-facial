@@ -2,7 +2,7 @@ from deepface import DeepFace
 
 # df = DeepFace.find(img_path = "~/Documents/GitHub/apertura-puertas-reconocimiento-facial/deepface/ai-face/img.jpg", db_path = "C:/workspace/my_db")
 
-obj = DeepFace.analyze(img_path = "/home/dafne/Documents/GitHub/apertura-puertas-reconocimiento-facial/deepface/ai-face/img.jpg", 
+obj = DeepFace.analyze(img_path = "/home/dafne/Documents/GitHub/apertura-puertas-reconocimiento-facial/deepface/ai-face/user.jpg", 
         actions = ['age', 'gender', 'race', 'emotion']
 )
 
